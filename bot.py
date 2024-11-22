@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+IezzVbvzlKxlODY1")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/BackUp_For_you")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots"),
-                        InlineKeyboardButton(" Support Group", url="https://t.me/greymatters_bots_discussion")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/BackUp_For_you"),
+                        InlineKeyboardButton(" Support Group", url="https://t.me/BackUp_For_you")
                     ]
                 ]
             )
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://bit.ly/3TddbNg")
+                                             url="https://t.me/BackUp_For_you")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +337,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://bit.ly/3TddbNg")
+                                             url="https://t.me/BackUp_For_you")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +354,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BotsList Channel", url="https://t.me/+IezzVbvzlKxlODY1")
+                        InlineKeyboardButton("BotsList Channel", url="https://t.me/BackUp_For_you")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,8 +362,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/greymatters_bots_discussion"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/BackUp_For_you"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/BackUp_For_you")
                     ]
                 ]
             )
@@ -401,7 +401,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/greymatters_bots_discussion).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/BackUp_For_you).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +411,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/greymatters_bots_discussion"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/greymatter_bots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/BackUp_For_you"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/BackUp_For_you")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
